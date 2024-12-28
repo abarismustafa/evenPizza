@@ -22,7 +22,7 @@ import RetailerIncomePage from "./pages/retailerIncome";
 import MyIncomePage from "./pages/myIncome";
 import MasterPages from "./pages/topNavigationPages/Master";
 import CompanyStaffPages from "./pages/topNavigationPages/companyStaff/CompanyStaffPages";
-import BoardcastPage from "./pages/boardcast";
+// import BoardcastPage from "./pages/boardcast";
 import BankMasterP from "./pages/topNavigationPages/Master/bankMaster";
 import Provider from "./components/topNavigationComp/apimaster/provider/Provider";
 import AddproviderLogo from "./components/topNavigationComp/apimaster/provider/providerForm/addproviderLogo/AddproviderLogo";
@@ -180,9 +180,9 @@ import CityForm from "./components/city/addCityForm/CityForm";
 import PageNotFound from "./common/pageNotFound/PageNotFound";
 //---------------------end--------------------------
 //---------------------After Delete start--------------------------
-import DmtDisputesPage from "./pages/dmt/disputes";
-import DmtStatusPage from "./pages/dmt/dmtStatus/DmtStatus";
-import PriorityPages from "./pages/dmt/priorityPages";
+// import DmtDisputesPage from "./pages/dmt/disputes";
+// import DmtStatusPage from "./pages/dmt/dmtStatus/DmtStatus";
+// import PriorityPages from "./pages/dmt/priorityPages";
 import CollegetypesPage from "./pages/collegeTypes";
 import CollegetypeForm from "./components/topNavigationComp/masters/collegeType/collegeTypesForm/CollegetypeForm";
 import LeadStatusMaster from "./pages/LeadStatusMaster";
@@ -191,7 +191,7 @@ import LeadSubStatusMaster from "./pages/leadSubStatusMaster";
 import LeadSubStatusForm from "./components/topNavigationComp/masters/leadSubStatusMaster/leadSubStatusForm/LeadSubStatusForm";
 import LeadSourceMasterPage from "./pages/LeadSourceMasterpage";
 import LeadSourceMasterForm from "./components/topNavigationComp/masters/leadSourceMaster/leadSourceMasterForm/LeadSourceMasterForm";
-import AffilatedBy from "./pages/affilatedBy";
+// import AffilatedBy from "./pages/affilatedBy";
 import AffilatedTypesForm from "./components/topNavigationComp/masters/affilatedType/affilatedTypeForm/AffilatedTypesForm";
 import CreditCard from "./pages/creditCard";
 import CreditCardMasterForm from "./components/topNavigationComp/masters/creditCardMaster/creditCardMasterForm/CreditCardMasterForm";
@@ -199,8 +199,8 @@ import ApprovalMasterForm from "./components/topNavigationComp/masters/approvalM
 import ApprovalMaster from "./pages/approvalMaster/ApprovalMaster";
 import CollagesData from "./pages/collegesDatas";
 import CollagesFormData from "./components/collegesData/collagesFormData/ColllagesFormData";
-import PriorityMasterForm from "./components/dmtModule/priorityMaster/priorityMasterForm/PriorityMasterForm";
-import DmtStatusForm from "./components/dmtModule/status/dmtStatusForm/DmtStatusForm";
+// import PriorityMasterForm from "./components/dmtModule/priorityMaster/priorityMasterForm/PriorityMasterForm";
+// import DmtStatusForm from "./components/dmtModule/status/dmtStatusForm/DmtStatusForm";
 import Facilities from "./pages/facilities";
 import FacilitiesMasterForm from "./components/topNavigationComp/masters/facilitiesMaster/facilitiesMasterForm/FacilitiesMasterForm";
 import GalleryDatas from "./pages/Gallery";
@@ -214,13 +214,13 @@ import CreateTestimonial from "./components/testimonial/CreateTestimonial";
 import Testimoniallist from "./components/testimonialList/Testimoniallist";
 import CreateVedio from "./components/vedioadd/CreateVedio";
 import VedioList from "./components/vediolist/VedioList";
-import BlogCategoryList from "./components/blog-categoryList/BlogCategoryList";
-import BLogCategoryAdd from "./components/blog-categoryAdd/BLogCategoryAdd";
-import BlogList from "./components/blogList/BlogList";
-import BLogAdd from "./components/blog/BLogAdd";
+// import BlogCategoryList from "./components/blog-categoryList/BlogCategoryList";
+// import BLogCategoryAdd from "./components/blog-categoryAdd/BLogCategoryAdd";
+// import BlogList from "./components/blogList/BlogList";
+// import BLogAdd from "./components/blog/BLogAdd";
 import PartnerList from "./components/partnerList/PartnerList";
 import PartnerAdd from "./components/partneradd/PartnerAdd";
-import AboutUs from "./components/aboutus/AboutUs";
+// import AboutUs from "./components/aboutus/AboutUs";
 import ContactUs from "./components/contact/AboutUs";
 import PrivacyAndPolicy from "./components/privecyPolecy/PrivacyAndPolicy";
 import ReturnPolicy from "./components/return-policy/Return-Policy";
@@ -294,7 +294,7 @@ import SendEmail from "./components/emailSetings/sendEmail/SendEmail";
 import EmailTemplet from "./components/emailSetings/emailTemplet/EmailTemplet";
 import MailSeting from "./components/emailSetings/mailSetting/MailSettings";
 import SiteMap from "./components/maped/siteMap/SiteMap";
-import HomePageCategories from "./components/homePageCategories/HomePageCategories";
+// import HomePageCategories from "./components/homePageCategories/HomePageCategories";
 import Miscellaneous from "./components/miscellaneous/Miscellaneous";
 import ManageAddons from "./components/addons/manageAddons/ManageAddons";
 import ShopAddons from "./components/addons/shopAddons/ShopAddons";
@@ -307,7 +307,7 @@ import PaymentGateway from "./components/systemSettings/innerCardsPages/paymentG
 import GeneralSettings from "./components/systemSettings/innerCardsPages/generalSettings/GeneralSettings";
 import SystemConfiguration from "./components/systemSettings/innerCardsPages/systemConfigration/SystemConfigration";
 import DeclaredWinnersPage from "./pages/declaredWinners";
-import ManageUsersPage from "./pages/ManageUsers";
+// import ManageUsersPage from "./pages/ManageUsers";
 import UserDetails from "./components/ManageUsers/userDetails/UserDetails";
 import PaymentsPage from "./pages/payments";
 import { PaymentsDetails } from "./components/payments/PaymentsDetails";
@@ -330,57 +330,57 @@ import CompanyDetail from "./components/companydetail/CompanyDeatail";
 
 // -----------------goatx import -----------------
 
-import FlightRequestPages from "./pages/flightAllPages";
-import FlightAmbd from "./components/flightComp/flightAmbd/FlightAmbd";
-import FlightCancel from "./components/flightComp/flightCancel/FlightCancel";
-import FlightRefunds from "./components/flightComp/flightRefundlList/FlightRefunds";
-import FlightBookingCalender from "./components/flightComp/flightBCalender/flightBookingCalender/FlightBookingCalender";
-import HoteltAmbd from "./components/hotelComp/hotelAmbd/HotelAmbd";
-import HotelBooking from "./components/hotelComp/hotelBooking/HotelBooking";
-import HotelBCalender from "./components/hotelComp/hotelBCalender/HotelBCalender";
-import HotelCancel from "./components/hotelComp/HotelCancel/HotelCancel";
-import HotelRefunds from "./components/hotelComp/HotelRefundlList/HotelRefunds";
-import BusMarkup from "./components/busComp/busMarkup/BusMarkup";
-import BusAmendments from "./components/busComp/busAmendment/BusAmendments ";
-import BusBooking from "./components/busComp/busBooking/BusBooking";
-import BusCancel from "./components/busComp/busCancel/BusCancel";
-import BusRefunds from "./components/busComp/BusRefund/BusRefund";
-import BusGroupRequest from "./components/busComp/busGroupRequest/BusGroupRequest";
-import BusDiscount from "./components/busComp/busDiscount/BusDiscount";
-import BusUpload from "./components/busComp/busUpload/BusUpload";
-import VisaMarkup from "./components/visaComp/visaMarkup/Visamarkup";
-import VisaDiscount from "./components/visaComp/VisaDiscount/VisaDiscount";
-import VisaList from "./components/visaComp/VisaList/Visalist";
-import VisaAmendmentsList from "./components/visaComp/VisaAmendmentsList/VisaAmendmentslist";
-import VisaBooking from "./components/visaComp/visaBooking/visaBooking";
-import VisaSetings from "./components/visaComp/visaSettings/VisaSetings";
+// import FlightRequestPages from "./pages/flightAllPages";
+// import FlightAmbd from "./components/flightComp/flightAmbd/FlightAmbd";
+// import FlightCancel from "./components/flightComp/flightCancel/FlightCancel";
+// import FlightRefunds from "./components/flightComp/flightRefundlList/FlightRefunds";
+// import FlightBookingCalender from "./components/flightComp/flightBCalender/flightBookingCalender/FlightBookingCalender";
+// import HoteltAmbd from "./components/hotelComp/hotelAmbd/HotelAmbd";
+// import HotelBooking from "./components/hotelComp/hotelBooking/HotelBooking";
+// import HotelBCalender from "./components/hotelComp/hotelBCalender/HotelBCalender";
+// import HotelCancel from "./components/hotelComp/HotelCancel/HotelCancel";
+// import HotelRefunds from "./components/hotelComp/HotelRefundlList/HotelRefunds";
+// import BusMarkup from "./components/busComp/busMarkup/BusMarkup";
+// import BusAmendments from "./components/busComp/busAmendment/BusAmendments ";
+// import BusBooking from "./components/busComp/busBooking/BusBooking";
+// import BusCancel from "./components/busComp/busCancel/BusCancel";
+// import BusRefunds from "./components/busComp/BusRefund/BusRefund";
+// import BusGroupRequest from "./components/busComp/busGroupRequest/BusGroupRequest";
+// import BusDiscount from "./components/busComp/busDiscount/BusDiscount";
+// import BusUpload from "./components/busComp/busUpload/BusUpload";
+// import VisaMarkup from "./components/visaComp/visaMarkup/Visamarkup";
+// import VisaDiscount from "./components/visaComp/VisaDiscount/VisaDiscount";
+// import VisaList from "./components/visaComp/VisaList/Visalist";
+// import VisaAmendmentsList from "./components/visaComp/VisaAmendmentsList/VisaAmendmentslist";
+// import VisaBooking from "./components/visaComp/visaBooking/visaBooking";
+// import VisaSetings from "./components/visaComp/visaSettings/VisaSetings";
 import AccountManagement from "./components/accountmanagment/AccountManagement";
 import DistributorRequest from "./components/distributorDepositeRequest/DistributorRequest";
-import RemarkPayment from "./components/flightComp/flightRequest/flightRequestList/RemarkPayment";
-import ViewInvoice from "./components/flightComp/viewInvoice/ViewInvoice";
-import VisaGroupReq from "./components/visaComp/visaGroupReq/VisaGroupReq";
-import VisaRList from "./components/visaComp/VisaRList/VisaRlist";
-import VisaRForm from "./components/visaComp/VisaRList/visaRForm/VisaRForm";
-import FlightGroupRequest from "./components/flightComp/flightGroupRequest/FlightGroupRequest";
-import FlightOfline from "./components/flightComp/flightOfline/FlightOfline";
-import FlightMarkUp from "./components/flightComp/flightMarkup/FlightMarkUp";
+// import RemarkPayment from "./components/flightComp/flightRequest/flightRequestList/RemarkPayment";
+// import ViewInvoice from "./components/flightComp/viewInvoice/ViewInvoice";
+// import VisaGroupReq from "./components/visaComp/visaGroupReq/VisaGroupReq";
+// import VisaRList from "./components/visaComp/VisaRList/VisaRlist";
+// import VisaRForm from "./components/visaComp/VisaRList/visaRForm/VisaRForm";
+// import FlightGroupRequest from "./components/flightComp/flightGroupRequest/FlightGroupRequest";
+// import FlightOfline from "./components/flightComp/flightOfline/FlightOfline";
+// import FlightMarkUp from "./components/flightComp/flightMarkup/FlightMarkUp";
 import BalanceLedger from "./components/balance-ledger/BalanceLedger";
 import VenderLogs from "./components/VenderLogs/VenderLogs";
 import ApiManage from "./components/apiManagment/ApiManage";
 // import ApiOffOnManage from "./components/api-manage/ApiOffOnManage";
-import { ViaggiooDashboardPage } from "./pages/viaggiooDashBoard";
-import FlightDiscount from "./components/flightComp/flightDiscount/FlightDiscount";
-import FlightUploadTicket from "./components/flightComp/flightUploadTicket/FlightUploadTicket";
-import HotelHoldQues from "./components/hotelComp/hotelHoldQues/HotelHoldQues";
-import HotelMarkup from "./components/hotelComp/hotelMarkup/HotelMarkUp";
-import HotelDiscount from "./components/hotelComp/hotelDiscount/HotelDiscount";
-import HotelGroupRequest from "./components/hotelComp/HotelGroupRequest/HotelGroupRequest";
-import HolidayMarkup from "./components/Holiday-markup/HolidayMarkup";
-import HolidayDIscount from "./components/Holiday-discount/HolidayDIscount";
-import HolidayListPage from "./components/Holiday-list/HolidayListPage";
-import AddHoliday from "./components/Holiday-list/AddHoliday";
-import HotelCoupon from "./components/hotelComp/hotelCoupon/HotelCoupon";
-import HotelVocherUpload from "./components/hotelComp/hotelVocherUpload/HotelVocherUpload";
+// import { ViaggiooDashboardPage } from "./pages/viaggiooDashBoard";
+// import FlightDiscount from "./components/flightComp/flightDiscount/FlightDiscount";
+// import FlightUploadTicket from "./components/flightComp/flightUploadTicket/FlightUploadTicket";
+// import HotelHoldQues from "./components/hotelComp/hotelHoldQues/HotelHoldQues";
+// import HotelMarkup from "./components/hotelComp/hotelMarkup/HotelMarkUp";
+// import HotelDiscount from "./components/hotelComp/hotelDiscount/HotelDiscount";
+// import HotelGroupRequest from "./components/hotelComp/HotelGroupRequest/HotelGroupRequest";
+// import HolidayMarkup from "./components/Holiday-markup/HolidayMarkup";
+// import HolidayDIscount from "./components/Holiday-discount/HolidayDIscount";
+// import HolidayListPage from "./components/Holiday-list/HolidayListPage";
+// import AddHoliday from "./components/Holiday-list/AddHoliday";
+// import HotelCoupon from "./components/hotelComp/hotelCoupon/HotelCoupon";
+// import HotelVocherUpload from "./components/hotelComp/hotelVocherUpload/HotelVocherUpload";
 import Extension from "./components/systemSettings/Extention/Extension";
 import CreatePages from "./pages/createPage/CreatePages";
 import CreateLink from "./pages/createLink/CreateLink";
@@ -394,29 +394,29 @@ import SaleMilkPage from "./pages/milkParlor/saleMilk";
 import { AddSaleMilk } from "./components/milkParlor/saleMilk/addSaleMilk/AddSaleMilk";
 import { SaleMilkInvoice } from "./components/milkParlor/saleMilk/saleMilkInvoice/SaleMilkInvoice";
 import SaleDueCollectionPage from "./pages/milkParlor/saleDueCollection";
-import RoutineMonitorPage from "./pages/cowMonitor/routineMonitor";
-import { AddRoutineMonitor } from "./components/cowMonitor/routineMonitor/addRoutineMonitor/AddRoutineMonitor";
+// import RoutineMonitorPage from "./pages/cowMonitor/routineMonitor";
+// import { AddRoutineMonitor } from "./components/cowMonitor/routineMonitor/addRoutineMonitor/AddRoutineMonitor";
 
 import OverallReportPage from "./pages/Analytics/OverallReport";
 import VisitorsLogPage from "./pages/Analytics/VisitorsLog";
 import RecentHistoryPage from "./pages/Analytics/RecentHistory";
 import OverviewPage from "./pages/Analytics/Overview";
 import WhoOnlinePage from "./pages/Analytics/WhoOnline";
-import PlayNif50Page from "./pages/playNif50";
-import { Nifty50HourlyContest } from "./components/playNif50/Nifty50/nifty50Slide/nifty50HourlyContest/Nifty50HourlyContest";
-import { SelectPlayers } from "./components/playNif50/Nifty50/nifty50Slide/nifty50HourlyContest/selectPlayers/SelectPlayers";
-import { SelectStock } from "./components/playNif50/Nifty50/nifty50Slide/nifty50HourlyContest/selectPlayers/selectStock/SelectStock";
+// import PlayNif50Page from "./pages/playNif50";
+// import { Nifty50HourlyContest } from "./components/playNif50/Nifty50/nifty50Slide/nifty50HourlyContest/Nifty50HourlyContest";
+// import { SelectPlayers } from "./components/playNif50/Nifty50/nifty50Slide/nifty50HourlyContest/selectPlayers/SelectPlayers";
+// import { SelectStock } from "./components/playNif50/Nifty50/nifty50Slide/nifty50HourlyContest/selectPlayers/selectStock/SelectStock";
 import GDPRCookies from "./components/systemSettings/gdpr/GDPRCookies";
 import CustomCss from "./components/systemSettings/customcss/CustomCss";
 import SiteMapXml from "./components/systemSettings/sitemap-XML/SiteMapXml";
 import RobotsTxt from "./components/systemSettings/robots-txt/RobotsTxt";
-import VaccineMonitorPage from "./pages/cowMonitor/vaccineMonitor";
-import { AddVaccineMonitor } from "./components/cowMonitor/vaccineMonitor/addVaccineMonitor/AddVaccineMonitor";
-import AnimalPregnancyPage from "./pages/cowMonitor/animalPregnancy";
-import SaleListPage from "./pages/cowSale/saleList";
-import CowSaleAdd from "./components/cowSale/saleList/cowSaleAdd/CowSaleAdd";
-import { SaleInvoice } from "./components/cowSale/saleList/saleInvoice/SaleInvoice";
-import SaleDueCollectionnPage from "./pages/cowSale/saleDueCollection";
+// import VaccineMonitorPage from "./pages/cowMonitor/vaccineMonitor";
+// import { AddVaccineMonitor } from "./components/cowMonitor/vaccineMonitor/addVaccineMonitor/AddVaccineMonitor";
+// import AnimalPregnancyPage from "./pages/cowMonitor/animalPregnancy";
+// import SaleListPage from "./pages/cowSale/saleList";
+// import CowSaleAdd from "./components/cowSale/saleList/cowSaleAdd/CowSaleAdd";
+// import { SaleInvoice } from "./components/cowSale/saleList/saleInvoice/SaleInvoice";
+// import SaleDueCollectionnPage from "./pages/cowSale/saleDueCollection";
 import ExpenseListPage from "./pages/farmExpense/expenseList";
 import { ExpenseListAdd } from "./components/farmExpense/expenseList/expenseListAdd/ExpenseListAdd";
 import PolicyPages from "./components/systemSettings/innerCardsPages/policyPages/PolicyPages";
@@ -477,7 +477,7 @@ import DeliveryChallanPage from "./pages/transaction/deliveryChallan";
 import ProposalListPage from "./pages/proposalListpage";
 import AddProposalPage from "./pages/addproposalPage";
 import ContractsPage from "./pages/contractsPage";
-import AddNewContractPage from "./pages/addNewContract";
+// import AddNewContractPage from "./pages/addNewContract";
 
 import VehicleList from "./components/vehicleList/VehicleList";
 import VehicleGroup from "./components/vehicleGroup/VehicleGroup";
@@ -499,7 +499,7 @@ import AddNewTaskTemplatePage from "./pages/addNewTaskTemplatePage";
 import AddNewTaskFromTemplatePage from "./pages/addNewTaskFromTemplatePage";
 import Project from "./pages/project";
 import NewProject from "./pages/new-project";
-import { SaleList } from "./components/cowSale/saleList/SaleList";
+// import { SaleList } from "./components/cowSale/saleList/SaleList";
 //---------------------JUNAID IMPORT END --------------------------
 
 // -------------------------DAUD----IMPORT-start----------------
@@ -532,7 +532,7 @@ import EstimateList from "./pages/CustomerView/estimates/EstimatesPage";
 import OrderList from "./pages/orderlist";
 import AddNewOrder from "./pages/addneworder/addneworder";
 import BookingList from "./pages/bookinglist";
-import AddNewBooking from "./pages/addnewbooking";
+// import AddNewBooking from "./pages/addnewbooking";
 import EstimateForm from "./pages/CustomerView/estimates/EstimateForm";
 import Estimate from "./pages/CustomerView/estimates/Estimate";
 import TicketsPage from "./pages/CustomerView/tickets/TicketsPage";
@@ -575,7 +575,7 @@ import PurchaseOrderBookPage from "./pages/report/orderBook/purchaseOrderBook";
 // -------------------------DAUD----IMPORT-End----------------
 
 import Budget from "./pages/budgetlist";
-import AddNewBudget from "./pages/addgudget";
+// import AddNewBudget from "./pages/addgudget";
 import Costing from "./pages/costinglist";
 import CostingForm from "./pages/costingform";
 import SimpleList from "./pages/sample";
@@ -653,7 +653,7 @@ import AddSaleRetunPage from "./pages/addSaleRetunPage";
 import SalesRetunWithoutGstPage from "./pages/salesRetunWithoutGstPage";
 import AddSalesReturnWithoutGstPage from "./pages/addSalesRetunWithoutGstPage";
 import BtrPage from "./pages/btrPage";
-import AddBtrPage from "./pages/addBtrPage";
+// import AddBtrPage from "./pages/addBtrPage";
 import NegativeSock from "./components/kingsonreports/stockSheet/negativeStock/NegativeSock";
 import ViewProductionForm from "./components/kingsonreports/stockSheet/stockRegister/stockRegisterList/productledger/viewProductionform/ViewProductionForm";
 import RecordLevel from "./components/kingsonreports/stockSheet/recordlevel/RecordLevel";
@@ -800,7 +800,7 @@ import JobworkOutRecipetPage from "./pages/transaction/jobworkOut/jobworkOutReci
 import JobworkOutRecipetAdd from "./components/transaction/jobworkOut/jobworkOutRecipet/jobworkOutRecipetAdd/JobworkOutRecipetAdd";
 import BankPaymenttPage from "./pages/transaction/quickEntry/bankPayment";
 
-import PropertyCharges from "./pages/propertycharges";
+// import PropertyCharges from "./pages/propertycharges";
 import CreatePropertyCharges from "./pages/CreatePropertycharges";
 import PropertyShowing from "./pages/PropertyShowing";
 import PropertyUnit from "./pages/PropertyUnit/Index";
@@ -830,7 +830,7 @@ import VoucherPrint from "./components/advanceUtility/vocherPrint/VoucherPrint";
 import Barcodetility from "./components/advanceUtility/barcodeutility/Barcodetility";
 import AddVoucher from "./components/kingsonreports/AccountBook/accountMaster/voucherMaster/addVoucher/AddVoucher";
 import VoucherMasterList from "./components/kingsonreports/AccountBook/accountMaster/voucherMaster/voucherMasterList/VoucherMasterList";
-import BusBookingMain from "./components/bus-booking-report/BusBookingMain";
+// import BusBookingMain from "./components/bus-booking-report/BusBookingMain";
 import AccountLedgerPageView from "./pages/report/accountBook/accountLedgerView";
 import TaxMasterPage from "./pages/setup/taxSetup/taxMaster";
 import AddTaxMaster from "./components/setup/taxSetup/taxMaster/addTaxMaster/AddTaxMaster";
@@ -966,7 +966,7 @@ import AddFlightVoucher from "./components/travelLeads/Travelvouchers/voucherFli
 import TravelInvoice from "./components/travelLeads/travelInvoice/TravelInvoice";
 import SystemSettingss from "./pages/system_settings/systemSettings/SystemSettings";
 import ListCouponPage from "./pages/listCouponPage";
-import AddNewCouponPage from "./pages/addNewCouponPage";
+// import AddNewCouponPage from "./pages/addNewCouponPage";
 import ClubUserPointPage from "./pages/clubUserPointsPage";
 import UpdateClubUserPoints from "./components/clubUserPointsComp/UpdateClubUserPoints";
 import ClubPointConfigurationPage from "./pages/clubPointConfigurationPage";
@@ -1065,23 +1065,23 @@ import { BusinessView } from "./components/degreeView/businessView/BusinessViwe"
 import PickUpMaster from "./components/topNavigationComp/masters/pickuppoint/PickUpMaster.js";
 import CreatePickUp from "./components/topNavigationComp/masters/pickuppoint/MasterForm/CreatePickUp.js";
 
-import OrderReturn from "./pages/empolye/OrderReturn/index.js";
-import NewOrderReturn from "./pages/empolye/NewOrderReturn/index.js";
-import CreateSampleOrder from "./pages/empolye/CreateSimpleOrdre";
-import CustomePartyOutstandingReport from "./components/Empoyee/Report/CustomerPartyOutstandingReport.js";
-import CustomePartyAgingReport from "./components/Empoyee/Report/CustomerPartyAgingReport.js";
-import MonthlyProductAchivement from "./components/Empoyee/Report/MonthlyProductAchivement.js";
-import YearlyProductAchivement from "./components/Empoyee/Report/YearlyProductAchivement.js";
-import About90Days from "./components/Empoyee/Report/About90Days.js";
-import PartyProductSalesAnalysis from "./components/Empoyee/Report/PartyProductSalesAnalysis.js";
-import MonthlyForecastReport from "./components/Empoyee/Report/MonthlyForecastReport.js";
-import DepotProductStock from "./components/Empoyee/Report/DepotProductStock.js";
-import DealerProductStock from "./components/Empoyee/Report/DealerProductStock.js";
-import DemoAchivement from "./components/Empoyee/Report/DemoAchivement.js";
-import DemoMaterialSummery from "./components/Empoyee/Report/DemoMaterialSummery.js";
-import NoSaleProducts from "./components/Empoyee/Report/NoSaleProducts.js";
-import ProductPricelistState from "./components/Empoyee/Report/ProductPricelistState.js";
-import Productlist from "./components/Empoyee/Report/ProductList.js";
+// import OrderReturn from "./pages/empolye/OrderReturn/index.js";
+// import NewOrderReturn from "./pages/empolye/NewOrderReturn/index.js";
+// import CreateSampleOrder from "./pages/empolye/CreateSimpleOrdre";
+// import CustomePartyOutstandingReport from "./components/Empoyee/Report/CustomerPartyOutstandingReport.js";
+// import CustomePartyAgingReport from "./components/Empoyee/Report/CustomerPartyAgingReport.js";
+// import MonthlyProductAchivement from "./components/Empoyee/Report/MonthlyProductAchivement.js";
+// import YearlyProductAchivement from "./components/Empoyee/Report/YearlyProductAchivement.js";
+// import About90Days from "./components/Empoyee/Report/About90Days.js";
+// import PartyProductSalesAnalysis from "./components/Empoyee/Report/PartyProductSalesAnalysis.js";
+// import MonthlyForecastReport from "./components/Empoyee/Report/MonthlyForecastReport.js";
+// import DepotProductStock from "./components/Empoyee/Report/DepotProductStock.js";
+// import DealerProductStock from "./components/Empoyee/Report/DealerProductStock.js";
+// import DemoAchivement from "./components/Empoyee/Report/DemoAchivement.js";
+// import DemoMaterialSummery from "./components/Empoyee/Report/DemoMaterialSummery.js";
+// import NoSaleProducts from "./components/Empoyee/Report/NoSaleProducts.js";
+// import ProductPricelistState from "./components/Empoyee/Report/ProductPricelistState.js";
+// import Productlist from "./components/Empoyee/Report/ProductList.js";
 
 // Meraj  --------  13/12/2024---------start Imports  
 import ExistingPartyVisit from "./components/partyDealer/ExistingPartyVisit.js";
@@ -1129,15 +1129,15 @@ import AccountSummary from "./pages/KamranNew/AccountSummary";
 import ProductSummary from "./pages/KamranNew/ProductSummary";
 // kamran
 // adil
-import OrderSummeryTrk from "./components/Empoyee/Order/order-summery.js";
-import PartyPending from "./components/Empoyee/Order/party-pending-order.js";
-import PartyPendingOrder from "./components/Empoyee/Order/party-pending-order2.js";
-import PartyDispatched from "./components/Empoyee/Order/party-dispatched-order.js";
-import ProductOrderSummery from "./components/Empoyee/Order/product-order-summery.js";
-import PendingOrderSummery from "./components/Empoyee/Order/pending-order-summery.js";
-import DispatchOrderSummery from "./components/Empoyee/Order/dispatch-order-summery.js";
-import PartyOrderSummery from "./components/Empoyee/Order/party-order-summery.js";
-import AllPayablePage from "./pages/payble/index.js";
+// import OrderSummeryTrk from "./components/Empoyee/Order/order-summery.js";
+// import PartyPending from "./components/Empoyee/Order/party-pending-order.js";
+// import PartyPendingOrder from "./components/Empoyee/Order/party-pending-order2.js";
+// import PartyDispatched from "./components/Empoyee/Order/party-dispatched-order.js";
+// import ProductOrderSummery from "./components/Empoyee/Order/product-order-summery.js";
+// import PendingOrderSummery from "./components/Empoyee/Order/pending-order-summery.js";
+// import DispatchOrderSummery from "./components/Empoyee/Order/dispatch-order-summery.js";
+// import PartyOrderSummery from "./components/Empoyee/Order/party-order-summery.js";
+// import AllPayablePage from "./pages/payble/index.js";
 import MonthView from "./components/travelCrmReports/payble/allCustomerList/MonthView.js";
 import LRRegisterPage from "./pages/transaction/LRregister/purchageOrder/index.js";
 import LRAdd from "./components/transaction/LRregister/purchageOrderAdd/LRAdd.js";
@@ -1170,10 +1170,108 @@ import AgronomyVisit from "./pages/cropProductionPage/AgronomyVisit";
 import AddAgronomyInformation from "./components/cropProductions/agronomyVisitInfomation/addAgronomyInformation/AddAgronomyInformation";
 import RoomCategoryPage from "./pages/travelCrmMaster/roomCategory/RoomCategory.js";
 import RoomCategoryAdd from "./components/travelCrmMaster/roomCategory/roomCategoryAdd/RoomCategoryAdd.js";
-import BusBookingDetails from "./components/busComp/busBooking/busBookingList/busBookingDetails/BusBookingDetails.js";
+// import BusBookingDetails from "./components/busComp/busBooking/busBookingList/busBookingDetails/BusBookingDetails.js";
 import ZomatoDashboardPage from "./pages/zomatoDashboard/index.js";
 import ResturentDasboardPage from "./pages/resturentDasbord/index.js";
 import ResurentDashboardRatingPage from "./pages/resturantDashBoardRating/index.js";
+import InventoryDashboardPage from "./pages/inventoryDashboard/index.js";
+import StockTransferEntryPage from "./pages/stockTransferEntry/index.js";
+import StockTransferEntryAdd from "./components/stockTransferEntry/stockTransferEntryAdd/StockTransferEntryAdd.js";
+
+
+import Reservation from "./pages/FoodsBhojan/Reservation/Reservation";
+import AddBooking from "./pages/FoodsBhojan/Reservation/AddBooking";
+import UnAvailableDay from "./pages/FoodsBhojan/Reservation/UnAvailableDay";
+import ResvartionSetting from "./pages/FoodsBhojan/Reservation/ResvartionSetting";
+import SetProductionUnit from "./pages/FoodsBhojan/Production/SetProductionUnit";
+import ProductionList from "./pages/FoodsBhojan/Production/ProductionList";
+import AddProduction from "./pages/FoodsBhojan/Production/AddProduction";
+import ProductionSetting from "./pages/FoodsBhojan/Production/ProductionSetting";
+import PurchaseReport from "./pages/FoodsBhojan/Report/PurchaseReport";
+import StockReportProductWise from "./pages/FoodsBhojan/Report/StockReportProductWise";
+import StockKitchen from "./pages/FoodsBhojan/Report/StockKitchen";
+import CashRegister from "./pages/FoodsBhojan/Report/CashRegister";
+import SellReport from "./pages/FoodsBhojan/Report/SellReport";
+import SellDateBy from "./pages/FoodsBhojan/Report/SellDateBy";
+import CommissionReport from "./pages/FoodsBhojan/Report/CommissionReport";
+import SaleByTable from "./pages/FoodsBhojan/Report/SaleByTable";
+import ReportSell from "./pages/FoodsBhojan/Report/Report-SubSub/ReportSell";
+import SellReportItem from "./pages/FoodsBhojan/Report/Report-SubSub/SellReportItem";
+import ServiceCharges from "./pages/FoodsBhojan/Report/Report-SubSub/ServiceCharges";
+import SellWaitersReport from "./pages/FoodsBhojan/Report/Report-SubSub/SellWaitersReport";
+import KitchenSell from "./pages/FoodsBhojan/Report/Report-SubSub/KitchenSell";
+import DeliveryTypeSell from "./pages/FoodsBhojan/Report/Report-SubSub/DeliveryTypeSell";
+import CashierReport from "./pages/FoodsBhojan/Report/Report-SubSub/CashierReport";
+import AddUser from "./pages/FoodsBhojan/User/AddUser";
+import UserData from "./pages/FoodsBhojan/User/UserData";
+
+
+import OrderlistData from "./components/orderlist/ordercall";
+import PendingData from "./components/pendingorder/pendingcall";
+import CompleteData from "./components/completeorder/completecall";
+import AddcategoryData from "./components/managecategory/addcategorycall";
+import CategoryListData from "./components/categorylist/categorylistcall";
+import AddFoodData from "./components/addfood/addfoodcall";
+import FoodlistData from "./components/foodlist/foodlistcall";
+import AddGroupData from "./components/addgroupitem/addgroupcall";
+import VarientData from "./components/varientfood/varientcall";
+import FoodAvailbityData from "./components/foodavlailabity/foodcall";
+import MenuTypeData from "./components/menutype/menutypecall";
+import AddonsData from "./components/addones/addonscall";
+import Addons from "./components/addones/addons";
+import AddonListData from "./components/addonlist/addonslistcall";
+import AddonAssign from "./components/addoneassignlist/addassigncall";
+import AddonAssignData from "./components/addoneassignlist/addassigncall";
+import PosInvoiceData from "./components/posinvoice/poscall";
+import CancelData from "./components/cancel/cancelcall";
+import CounterData from "./components/counter/countercall";
+import PosData from "./components/possetting/possettingdata";
+import Soundset from "./components/sound/sounddata";
+import CounterDashboardData from "./components/counterdashboard/counterdashboardcall";
+import KitchenDashboardData from "./components/kitchendashboard/kitchencall";
+import AddPurchaseData from "./components/purchasemanage/purchasecall";
+
+
+import TruckMaster from "./pages/truckDetailsPages/TruckMaster";
+import TruckDriver from "./pages/truckDetailsPages/TruckDriver";
+import TruckOwner from "./pages/truckDetailsPages/TruckOwner";
+import TrainMaster from "./pages/truckDetailsPages/TrainMaster";
+import Container from "./pages/truckDetailsPages/Container";
+import Flight from "./pages/truckDetailsPages/Flight";
+import CommonSetting from "./pages/webSettingPage/CommonSetting";
+import ManageStoreTime from "./pages/webSettingPage/ManageStoreTime";
+import BannerSetting from "./pages/webSettingPage/BannerSetting";
+import MenuSetting from "./pages/webSettingPage/MenuSetting";
+import SeoSetting from "./pages/webSettingPage/SeoSetting";
+import SocialSetting from "./pages/webSettingPage/SocialSetting";
+import WidgetSetting from "./pages/webSettingPage/WidgetSetting";
+import EmailSettingWeb from "./pages/webSettingPage/EmailSettingWeb";
+import CustomerWeb from "./pages/webSettingPage/CustomerWeb";
+import Coupon from "./pages/webSettingPage/Coupon";
+import SubscribeWeb from "./pages/webSettingPage/SubscribeWeb";
+
+import EtgDashboardPage from "./pages/etgAllDashboards/etgDashboardPage";
+import SalesDashPage from "./pages/etgAllDashboards/salesDashboards/salesDashPage";
+import EtgProductsDashPage from "./pages/etgAllDashboards/salesDashboards/productsDashPage";
+import EtgPointOfSalePage from "./pages/etgAllDashboards/salesDashboards/pointOfSaleDashPage";
+import EtgRentalDashPage from "./pages/etgAllDashboards/salesDashboards/rentalDashPage";
+import EtgSubscriptionDashPage from "./pages/etgAllDashboards/salesDashboards/subscriptionDashPage";
+import SalesPersonDashPage from "./pages/etgAllDashboards/salesDashboards/salesPersonDashPage";
+import EtgNewDashboardPage from "./pages/etgAllDashboards/newDashboard";
+import AccountingDashPage from "./pages/etgAllDashboards/financeDashboards/accountingDashPage";
+import EtgInvoicingDashPage from "./pages/etgAllDashboards/financeDashboards/invoicing";
+import EtgExpensesDashPage from "./pages/etgAllDashboards/financeDashboards/expenses";
+import EtgBenchmarkDashPage from "./pages/etgAllDashboards/financeDashboards/benchMark";
+import EtgPurchaseDashPage from "./pages/etgAllDashboards/logisticDashboards/pruchaseDashPage";
+import EtgVendorDashPage from "./pages/etgAllDashboards/logisticDashboards/vendorsDashPage";
+import EtgInventoryFlowDashPage from "./pages/etgAllDashboards/logisticDashboards/inventryFlowDashPage";
+import EtgEventMarketingDashPage from "./pages/etgAllDashboards/logisticDashboards/eventMarketingDashPage";
+import EtgInventoryOnHandDashPage from "./pages/etgAllDashboards/logisticDashboards/inventryOnHandDashPage";
+import EtgWebsiteDashboardPage from "./pages/etgAllDashboards/websiteDashboardPage";
+import EtgTasksDashPage from "./pages/etgAllDashboards/tasksDashboardPage";
+import EtgTimeSheetDashBoardPage from "./pages/etgAllDashboards/timeSheetDashboardPage";
+import EtgHelpDeskDashPage from "./pages/etgAllDashboards/helpDeskDashboardPage";
+import EtgEmployeeHumanResourcePage from "./pages/etgAllDashboards/employeeHumanResourceDashPage'";
 
 
 function App() {
@@ -1265,7 +1363,7 @@ function App() {
               {/* <Route path={`${location?.pathname}`} element={<DasBoardRight />} /> */}
               <Route path={`contest_dashboard`} element={<DasBoardRight />} />
               <Route path={`college_dashboard`} element={<CollegeBazzarDashboard />} />
-              <Route path={`travel_dashboard`} element={<ViaggiooDashboardPage />} />
+              {/* <Route path={`travel_dashboard`} element={<ViaggiooDashboardPage />} /> */}
               <Route path={`lead_dashboard`} element={<DashboardLeadPage />} />
               <Route path={`farm-dashboard`} element={<DairyDashboard />} />
               {/* <Route path={`Agriculture_dashboard`} element={<DashboardLeadPage />} /> */}
@@ -1316,7 +1414,7 @@ function App() {
                 path="update-stream-category/:id"
                 element={<AddServiceCategoryMaster />}
               />
-              <Route path="boardcast" element={<BoardcastPage />} />
+              {/* <Route path="boardcast" element={<BoardcastPage />} /> */}
               <Route
                 path="payment-method"
                 element={<PaymentMethodMasterPage />}
@@ -1861,10 +1959,10 @@ function App() {
                 path="/update-collage-type/:id"
                 element={<CollegetypeForm />}
               />
-              <Route
+              {/* <Route
                 path="/affilated-by"
                 element={<AffilatedBy />}
-              />
+              /> */}
               <Route
                 path="/company-master"
                 element={<CompanyMasters />}
@@ -1997,34 +2095,34 @@ function App() {
               />
 
               {/* afterdelete Routes  */}
-              <Route
+              {/* <Route
                 path="disputes/welcome"
                 element={<DmtDisputesPage />}
-              />
-              <Route
+              /> */}
+              {/* <Route
                 path="dmt-status/welcome"
                 element={<DmtStatusPage />}
-              />
-              <Route
+              /> */}
+              {/* <Route
                 path="priority-master/welcome"
                 element={<PriorityPages />}
-              />
-              <Route
+              /> */}
+              {/* <Route
                 path="add-priority-master/welcome"
                 element={<PriorityMasterForm />}
               />
               <Route
                 path="update-priority-master/:id/welcome"
                 element={<PriorityMasterForm />}
-              />
-              <Route
+              /> */}
+              {/* <Route
                 path="add-dmt-status/welcome"
                 element={<DmtStatusForm />}
               />
               <Route
                 path="update-dmt-status/welcome/:id"
                 element={<DmtStatusForm />}
-              />
+              /> */}
               <Route
                 path="move-member"
                 element={<MoveMember />}
@@ -2091,19 +2189,19 @@ function App() {
               <Route path="edit-vedio/:id" element={<CreateVedio />} />
               <Route path="vedio-master" element={<VedioList />} />
 
-              <Route path="add-blog-category" element={<BLogCategoryAdd />} />
-              <Route path="edit-blog-category/:id" element={<BLogCategoryAdd />} />
-              <Route path="blog-category" element={<BlogCategoryList />} />
+              {/* <Route path="add-blog-category" element={<BLogCategoryAdd />} />
+              <Route path="edit-blog-category/:id" element={<BLogCategoryAdd />} /> */}
+              {/* <Route path="blog-category" element={<BlogCategoryList />} /> */}
 
-              <Route path="add-blog" element={<BLogAdd />} />
-              <Route path="edit-blog/:id" element={<BLogAdd />} />
-              <Route path="blog-list" element={<BlogList />} />
+              {/* <Route path="add-blog" element={<BLogAdd />} />
+              <Route path="edit-blog/:id" element={<BLogAdd />} /> */}
+              {/* <Route path="blog-list" element={<BlogList />} /> */}
 
               <Route path="add-partner" element={<PartnerAdd />} />
               <Route path="edit-partner/:id" element={<PartnerAdd />} />
               <Route path="partner-list" element={<PartnerList />} />
 
-              <Route path="about-us-master" element={<AboutUs />} />
+              {/* <Route path="about-us-master" element={<AboutUs />} /> */}
               <Route path="contact-us-master" element={<ContactUs />} />
               <Route path="privacy-policy-master" element={<PrivacyAndPolicy />} />
 
@@ -2248,7 +2346,7 @@ function App() {
               <Route path="mail-templates" element={<EmailTemplet />} />
 
               <Route path="sitemap/build" element={<SiteMap />} />
-              <Route path="category" element={<HomePageCategories />} />
+              {/* <Route path="category" element={<HomePageCategories />} /> */}
               <Route path="miscellaneous" element={<Miscellaneous />} />
               <Route path="manage-addons" element={<ManageAddons />} />
               <Route path="shop-addons" element={<ShopAddons />} />
@@ -2262,13 +2360,13 @@ function App() {
 
 
               <Route path="declared_winners" element={<DeclaredWinnersPage />} />
-              <Route path="users/active" element={<ManageUsersPage />} />
+              {/* <Route path="users/active" element={<ManageUsersPage />} /> */}
               <Route path="users/detail" element={<UserDetails />} />
-              <Route path="users/banned" element={<ManageUsersPage />} />
-              <Route path="users/email-unverified" element={<ManageUsersPage />} />
-              <Route path="users/mobile-unverified" element={<ManageUsersPage />} />
-              <Route path="users/with-balance" element={<ManageUsersPage />} />
-              <Route path="users" element={<ManageUsersPage />} />
+              {/* <Route path="users/banned" element={<ManageUsersPage />} /> */}
+              {/* <Route path="users/email-unverified" element={<ManageUsersPage />} /> */}
+              {/* <Route path="users/mobile-unverified" element={<ManageUsersPage />} /> */}
+              {/* <Route path="users/with-balance" element={<ManageUsersPage />} /> */}
+              {/* <Route path="users" element={<ManageUsersPage />} />s */}
               <Route path="deposit/pending" element={<PaymentsPage />} />
               <Route path="deposit/approved" element={<PaymentsPage />} />
               <Route path="deposit/details" element={<PaymentsDetails />} />
@@ -2288,15 +2386,15 @@ function App() {
               <Route path="sale-milk-due-collection" element={<SaleDueCollectionPage />} />
               <Route path="contest_participate" element={<ContestParticipate />} />
               <Route path="company_details" element={<CompanyDetail />} />
-              <Route path="cow-monitor" element={<RoutineMonitorPage />} />
-              <Route path="cow-monitor/create" element={<AddRoutineMonitor />} />
-              <Route path="vaccine-monitor" element={<VaccineMonitorPage />} />
-              <Route path="vaccine-monitor/create" element={<AddVaccineMonitor />} />
-              <Route path="animal-pregnancy" element={<AnimalPregnancyPage />} />
-              <Route path="sale-cow" element={<SaleListPage />} />
-              <Route path="add-sale-cow" element={<CowSaleAdd />} />
-              <Route path="sale-invoice-cow" element={<SaleInvoice />} />
-              <Route path="sale-due-collection" element={<SaleDueCollectionnPage />} />
+              {/* <Route path="cow-monitor" element={<RoutineMonitorPage />} /> */}
+              {/* <Route path="cow-monitor/create" element={<AddRoutineMonitor />} /> */}
+              {/* <Route path="vaccine-monitor" element={<VaccineMonitorPage />} /> */}
+              {/* <Route path="vaccine-monitor/create" element={<AddVaccineMonitor />} /> */}
+              {/* <Route path="animal-pregnancy" element={<AnimalPregnancyPage />} /> */}
+              {/* <Route path="sale-cow" element={<SaleListPage />} />
+              <Route path="add-sale-cow" element={<CowSaleAdd />} /> */}
+              {/* <Route path="sale-invoice-cow" element={<SaleInvoice />} /> */}
+              {/* <Route path="sale-due-collection" element={<SaleDueCollectionnPage />} /> */}
               <Route path="expense-list" element={<ExpenseListPage />} />
 
               <Route path="expense-purpose" element={<ExpensePurposePage />} />
@@ -2442,52 +2540,52 @@ function App() {
               <Route path="bank-Receipt-Quick" element={<BankPaymenttPage heading={'Bank Receipt (Quick)'} />} />
 
               {/* -----------------Goatx Routes-------- */}
-              <Route path="flight-booking-txn-list" element={<FlightRequestPages />} />
-              <Route path="flight-amendments-list" element={<FlightAmbd />} />
-              <Route path="flight-refunds-list" element={<FlightRefunds />} />
-              <Route path="flight-Cancellation-request" element={<FlightCancel />} />
+              {/* <Route path="flight-booking-txn-list" element={<FlightRequestPages />} /> */}
+              {/* <Route path="flight-amendments-list" element={<FlightAmbd />} />
+              <Route path="flight-refunds-list" element={<FlightRefunds />} /> */}
+              {/* <Route path="flight-Cancellation-request" element={<FlightCancel />} />
               <Route path="flight-booking-calendar" element={<FlightBookingCalender />} />
               <Route path="flight-group-request" element={<FlightGroupRequest />} />
               <Route path="offline-flight" element={<FlightOfline />} />
               <Route path="flight-markup" element={<FlightMarkUp />} />
               <Route path="flight-deal-dicount" element={<FlightDiscount />} />
-              <Route path="flight-upload-ticket" element={<FlightUploadTicket />} />
-              <Route path="hotel-amendments-list" element={<HoteltAmbd />} />
-              <Route path="hotel-hold-queues" element={<HotelHoldQues />} />
-              <Route path="hotels-markup" element={<HotelMarkup />} />
-              <Route path="hotel-discounts" element={<HotelDiscount />} />
-              <Route path="hotel-booking-list" element={<HotelBooking />} />
-              <Route path="hotel-group-request" element={<HotelGroupRequest />} />
-              <Route path="my-booking-hotel-calender" element={<HotelBCalender />} />
-              <Route path="hotel-cancellations-request" element={<HotelCancel />} />
-              <Route path="hotel-refunds-list" element={<HotelRefunds />} />
-              <Route path="coupon/hotel-coupon" element={<HotelCoupon />} />
-              <Route path="hotel-upload" element={<HotelVocherUpload />} />
-              <Route path="bus-markup" element={<BusMarkup />} />
-              <Route path="bus-amendments" element={<BusAmendments />} />
-              <Route path="bus-booking-list" element={<BusBooking />} />
-              <Route path="bus-booking-deatils/:id" element={<BusBookingDetails />} />
-              <Route path="bus-cancellation-request" element={<BusCancel />} />
-              <Route path="bus-refund" element={<BusRefunds />} />
-              <Route path="bus-group-request" element={<BusGroupRequest />} />
-              <Route path="bus-discount" element={<BusDiscount />} />
-              <Route path="bus-upload" element={<BusUpload />} />
-              <Route path="visa-markup" element={<VisaMarkup />} />
-              <Route path="visa-discount" element={<VisaDiscount />} />
-              <Route path="Visa-refunds-list" element={<VisaList />} />
-              <Route path="visa-amendments-list" element={<VisaAmendmentsList />} />
-              <Route path="visa-booking-list" element={<VisaBooking />} />
-              <Route path="visa-setting-list" element={<VisaSetings />} />
-              <Route path="visa-group-request-list" element={<VisaGroupReq />} />
-              <Route path="visa-list" element={<VisaRList />} />
-              <Route path="visa-list/add-visa" element={<VisaRForm />} />
+              <Route path="flight-upload-ticket" element={<FlightUploadTicket />} /> */}
+              {/* <Route path="hotel-amendments-list" element={<HoteltAmbd />} /> */}
+              {/* <Route path="hotel-hold-queues" element={<HotelHoldQues />} /> */}
+              {/* <Route path="hotels-markup" element={<HotelMarkup />} /> */}
+              {/* <Route path="hotel-discounts" element={<HotelDiscount />} /> */}
+              {/* <Route path="hotel-booking-list" element={<HotelBooking />} /> */}
+              {/* <Route path="hotel-group-request" element={<HotelGroupRequest />} /> */}
+              {/* <Route path="my-booking-hotel-calender" element={<HotelBCalender />} /> */}
+              {/* <Route path="hotel-cancellations-request" element={<HotelCancel />} /> */}
+              {/* <Route path="hotel-refunds-list" element={<HotelRefunds />} /> */}
+              {/* <Route path="coupon/hotel-coupon" element={<HotelCoupon />} /> */}
+              {/* <Route path="hotel-upload" element={<HotelVocherUpload />} /> */}
+              {/* <Route path="bus-markup" element={<BusMarkup />} /> */}
+              {/* <Route path="bus-amendments" element={<BusAmendments />} /> */}
+              {/* <Route path="bus-booking-list" element={<BusBooking />} /> */}
+              {/* <Route path="bus-booking-deatils/:id" element={<BusBookingDetails />} /> */}
+              {/* <Route path="bus-cancellation-request" element={<BusCancel />} /> */}
+              {/* <Route path="bus-refund" element={<BusRefunds />} /> */}
+              {/* <Route path="bus-group-request" element={<BusGroupRequest />} /> */}
+              {/* <Route path="bus-discount" element={<BusDiscount />} /> */}
+              {/* <Route path="bus-upload" element={<BusUpload />} /> */}
+              {/* <Route path="visa-markup" element={<VisaMarkup />} /> */}
+              {/* <Route path="visa-discount" element={<VisaDiscount />} /> */}
+              {/* <Route path="Visa-refunds-list" element={<VisaList />} /> */}
+              {/* <Route path="visa-amendments-list" element={<VisaAmendmentsList />} /> */}
+              {/* <Route path="visa-booking-list" element={<VisaBooking />} /> */}
+              {/* <Route path="visa-setting-list" element={<VisaSetings />} /> */}
+              {/* <Route path="visa-group-request-list" element={<VisaGroupReq />} /> */}
+              {/* <Route path="visa-list" element={<VisaRList />} /> */}
+              {/* <Route path="visa-list/add-visa" element={<VisaRForm />} /> */}
 
               {/* ---------------------Junaid Goatx Routes----------------------- */}
               <Route path="Deposit-Request" element={<AccountManagement />} />
               <Route path="distributor-deposite-request" element={<DistributorRequest />} />
-              <Route path="/flight-booking-txn-list/payment-remark" element={<RemarkPayment />} />
-              <Route path="/viewInvoice" element={<RemarkPayment />} />
-              <Route path="/flight-booking-txn-list/payment-remark/viewInvoice" element={<ViewInvoice />} />
+              {/* <Route path="/flight-booking-txn-list/payment-remark" element={<RemarkPayment />} /> */}
+              {/* <Route path="/viewInvoice" element={<RemarkPayment />} /> */}
+              {/* <Route path="/flight-booking-txn-list/payment-remark/viewInvoice" element={<ViewInvoice />} /> */}
 
 
               <Route path="balance-ledger" element={<BalanceLedger />} />
@@ -2495,10 +2593,10 @@ function App() {
               <Route path="api-management" element={<ApiManage />} />
               {/* <Route path="api-manage" element={<ApiOffOnManage />} /> */}
 
-              <Route path="holiday-markup-list" element={<HolidayMarkup />} />
-              <Route path="Holiday-Discount" element={<HolidayDIscount />} />
-              <Route path="Holiday-List" element={<HolidayListPage />} />
-              <Route path="Add-Holiday" element={<AddHoliday />} />
+              {/* <Route path="holiday-markup-list" element={<HolidayMarkup />} /> */}
+              {/* <Route path="Holiday-Discount" element={<HolidayDIscount />} /> */}
+              {/* <Route path="Holiday-List" element={<HolidayListPage />} /> */}
+              {/* <Route path="Add-Holiday" element={<AddHoliday />} /> */}
 
 
               <Route path="overall-report" element={<OverallReportPage />} />
@@ -2506,10 +2604,10 @@ function App() {
               <Route path="recent-history" element={<RecentHistoryPage />} />
               <Route path="who-online" element={<OverviewPage />} />
               <Route path="analytics-overview" element={<WhoOnlinePage />} />
-              <Route path="/dashboard/playNif50" element={<PlayNif50Page />} />
-              <Route path="hourly-contest" element={<Nifty50HourlyContest />} />
-              <Route path="select-palyers" element={<SelectPlayers />} />
-              <Route path="select-stock" element={<SelectStock />} />
+              {/* <Route path="/dashboard/playNif50" element={<PlayNif50Page />} /> */}
+              {/* <Route path="hourly-contest" element={<Nifty50HourlyContest />} /> */}
+              {/* <Route path="select-palyers" element={<SelectPlayers />} /> */}
+              {/* <Route path="select-stock" element={<SelectStock />} /> */}
 
 
               {/* -----------------Goatx Routes-------- */}
@@ -2578,7 +2676,7 @@ function App() {
               <Route path="proposal/list" element={<ProposalListPage />} />
               <Route path="proposal/create" element={<AddProposalPage />} />
               <Route path="contracts" element={<ContractsPage />} />
-              <Route path="contract/create" element={<AddNewContractPage />} />
+              {/* <Route path="contract/create" element={<AddNewContractPage />} /> */}
 
               <Route path="vehicle_list" element={<VehicleList />} />
               <Route path="vehicle-details" element={<VehicleDetails />} />
@@ -2649,13 +2747,13 @@ function App() {
                 element={<FormTransportMaster />}
               />
 
-              <Route path="cow-sale-report" element={<SaleList />} />
+              {/* <Route path="cow-sale-report" element={<SaleList />} /> */}
               <Route path="print-invoice" element={<PrintInvoice />} />
 
               <Route path="orderlist" element={<OrderList />} />
               <Route path="addneworder" element={<AddNewOrder />} />
               <Route path="bookinglist" element={<BookingList />} />
-              <Route path="addnewbooking" element={<AddNewBooking />} />
+              {/* <Route path="addnewbooking" element={<AddNewBooking />} /> */}
 
 
 
@@ -2693,7 +2791,7 @@ function App() {
 
               {/* atif routes */}
               <Route path="budgetlist" element={<Budget />} />
-              <Route path="addnewbudget" element={<AddNewBudget />} />
+              {/* <Route path="addnewbudget" element={<AddNewBudget />} /> */}
               <Route path="costinglist" element={<Costing />} />
               <Route path="costingform" element={<CostingForm />} />
               <Route path="samplelist" element={<SimpleList />} />
@@ -2860,7 +2958,7 @@ function App() {
               <Route path="newfloor" element={<NewFloor />} />
               <Route path="block" element={<Block />} />
               <Route path="newblock" element={<NewBlock />} />
-              <Route path="propertycharges" element={<PropertyCharges />} />
+              {/* <Route path="propertycharges" element={<PropertyCharges />} /> */}
               <Route path="newpropertycharges" element={<CreatePropertyCharges />} />
               <Route path="propertyshowing" element={<PropertyShowing />} />
               <Route path="newpropertyshowing" element={<CreatePropertyShowing />} />
@@ -3094,9 +3192,14 @@ function App() {
 
 
 
-              <Route path="zomato-Dasboard" element={<ZomatoDashboardPage />} />
-              <Route path="restaurant-Dasboard" element={<ResturentDasboardPage />} />
-              <Route path="restaurant-Dasboard-rating" element={<ResurentDashboardRatingPage />} />
+              <Route path="Zomato-restaurant-dashboard" element={<ZomatoDashboardPage />} />
+              <Route path="restaurant-company-dashboard" element={<ResturentDasboardPage />} />
+              <Route path="restaurant-rating-dashboard" element={<ResurentDashboardRatingPage />} />
+              <Route path="restaurant-inventory-dashboard" element={<InventoryDashboardPage />} />
+              <Route path="stock-transfer-entry" element={<StockTransferEntryPage />} />
+              <Route path="add-stock-transfer-entry" element={<StockTransferEntryAdd />} />
+
+
 
               <Route path="travel-leads" element={<TravelLeadPage />} />
               <Route path="travel-leads-add" element={<AddLeadForm />} />
@@ -3126,7 +3229,7 @@ function App() {
               <Route path="ele-sales-return/without-gst" element={<SalesRetunWithoutGstPage />} />
               <Route path="ele-sales-return/without-gst/create" element={<AddSalesReturnWithoutGstPage />} />
               <Route path="ele-BTR" element={<BtrPage />} />
-              <Route path="ele-BTR/create" element={<AddBtrPage />} />
+              {/* <Route path="ele-BTR/create" element={<AddBtrPage />} /> */}
               <Route path="ele-purchase-order" element={<PurchaseOrderListPage />} />
               <Route path="ele-purchase-order/create" element={<AddPurchaseOrderPage />} />X
               <Route path="ele-purchase-invoice" element={<PurchaseInvoiceListPage />} />
@@ -3243,7 +3346,7 @@ function App() {
               <Route path="list-product" element={<ListProductPage />} />
 
               <Route path="coupons" element={<ListCouponPage />} />
-              <Route path="coupons/create" element={<AddNewCouponPage />} />
+              {/* <Route path="coupons/create" element={<AddNewCouponPage />} /> */}
               <Route path="club-point-configuration" element={<ClubPointConfigurationPage />} />
               <Route path="set-product-point" element={<ListSetProductPointPage />} />
               <Route path="set-product-point/create" element={<AddSetProductPointPage />} />
@@ -3310,24 +3413,24 @@ function App() {
               <Route path="business-view" element={<BusinessView />} />
 
 
-              <Route path="orderreturn" element={<OrderReturn />} />
-              <Route path="order-return-page" element={<NewOrderReturn />} />
-              <Route path="create-sample-order" element={<CreateSampleOrder />} />
-              <Route path="customepartyreport" element={<CustomePartyOutstandingReport />} />
-              <Route path="customepartyreportagingreport" element={<CustomePartyAgingReport />} />
+              {/* <Route path="orderreturn" element={<OrderReturn />} /> */}
+              {/* <Route path="order-return-page" element={<NewOrderReturn />} /> */}
+              {/* <Route path="create-sample-order" element={<CreateSampleOrder DemoAchivement/>} /> */}
+              {/* <Route path="customepartyreport" element={<CustomePartyOutstandingReport />} /> */}
+              {/* <Route path="customepartyreportagingreport" element={<CustomePartyAgingReport />} />
               <Route path="monthlyproductachivement" element={<MonthlyProductAchivement />} />
-              <Route path="yearlyproductachivement" element={<YearlyProductAchivement />} />
-              <Route path="about90days" element={<About90Days />} />
-              <Route path="saleanalysis" element={<PartyProductSalesAnalysis />} />
-              <Route path="forcestreport" element={<MonthlyForecastReport />} />
+              <Route path="yearlyproductachivement" element={<YearlyProductAchivement />} /> */}
+              {/* <Route path="about90days" element={<About90Days />} /> */}
+              {/* <Route path="saleanalysis" element={<PartyProductSalesAnalysis />} />
+              <Route path="forcestreport" element={<MonthlyForecastReport />} /> */}
 
-              <Route path="depotproductstock" element={<DepotProductStock />} />
-              <Route path="dealerproductstock" element={<DealerProductStock />} />
-              <Route path="demoachivement" element={<DemoAchivement />} />
-              <Route path="demomaterial" element={<DemoMaterialSummery />} />
-              <Route path="nosaleProducts" element={<NoSaleProducts />} />
-              <Route path="priceliststate" element={<ProductPricelistState />} />
-              <Route path="priceproductlist" element={<Productlist />} />
+              {/* <Route path="depotproductstock" element={<DepotProductStock />} />
+              <Route path="dealerproductstock" element={<DealerProductStock />} /> */}
+              {/* <Route path="demoachivement" element={<DemoAchivement />} /> */}
+              {/* <Route path="demomaterial" element={<DemoMaterialSummery />} /> */}
+              {/* <Route path="nosaleProducts" element={<NoSaleProducts />} />
+              <Route path="priceliststate" element={<ProductPricelistState />} /> */}
+              {/* <Route path="priceproductlist" element={<Productlist />} /> */}
 
 
 
@@ -3380,19 +3483,19 @@ function App() {
               {/* kamran Route */}
 
               {/* adil */}
-              <Route path="ordersummery" element={<OrderSummeryTrk />} />
-              <Route path="partypending" element={<PartyPending />} />
+              {/* <Route path="ordersummery" element={<OrderSummeryTrk />} /> */}
+              {/* <Route path="partypending" element={<PartyPending />} />
               <Route path="partyorder" element={<PartyOrderSummery />} />
               <Route path="partypendingorder" element={<PartyPendingOrder />} />
               <Route path="partydispatched" element={<PartyDispatched />} />
               <Route path="productordersummery" element={<ProductOrderSummery />} />
               <Route path="pendingordersummery" element={<PendingOrderSummery />} />
-              <Route path="dispatachorder" element={<DispatchOrderSummery />} />
+              <Route path="dispatachorder" element={<DispatchOrderSummery />} /> */}
               {/* adil */}
 
               {/* junaid */}
 
-              <Route path="payable-master" element={<AllPayablePage />} />
+              {/* <Route path="payable-master" element={<AllPayablePage />} /> */}
               <Route path="payable-month-view/:id" element={<MonthView />} />
 
               <Route path="L-r-register" element={<LRRegisterPage />} />
@@ -3434,6 +3537,112 @@ function App() {
               <Route path="gps-flag" element={<GpsFlag />} />
 
               {/* meraj */}
+
+              {/* kamran */}
+
+              <Route path="reservation" element={<Reservation />} />
+              <Route path="add-book" element={<AddBooking />} />
+              <Route path="un-day" element={<UnAvailableDay />} />
+              <Route path="reservation-setting" element={<ResvartionSetting />} />
+
+              <Route path="set-production" element={<SetProductionUnit />} />
+              <Route path="production-list" element={<ProductionList />} />
+              <Route path="add-production" element={<AddProduction />} />
+              <Route path="production-setting" element={<ProductionSetting />} />
+
+              <Route path="purchase-report" element={<PurchaseReport />} />
+              <Route path="stock-report" element={<StockReportProductWise />} />
+              <Route path="stock-kitchen" element={<StockKitchen />} />
+              <Route path="cash-register" element={<CashRegister />} />
+              <Route path="sell-report" element={<SellReport />} />
+              <Route path="selldate-report" element={<SellDateBy />} />
+              <Route path="commission-report" element={<CommissionReport />} />
+              <Route path="sale-table" element={<SaleByTable />} />
+              <Route path="filter-report" element={<ReportSell />} />
+              <Route path="report-items" element={<SellReportItem />} />
+              <Route path="service-charges" element={<ServiceCharges />} />
+              <Route path="sell-waiters" element={<SellWaitersReport />} />
+              <Route path="kitchen-sell" element={<KitchenSell />} />
+              <Route path="delivery-type" element={<DeliveryTypeSell />} />
+              <Route path="cashier-report" element={<CashierReport />} />
+
+              <Route path="add-user" element={<AddUser />} />
+              <Route path="user-data" element={<UserData />} />
+
+              {/* kamran */}
+
+              {/* sima */}
+              <Route path="order-list" element={<OrderlistData />} />
+              <Route path="Pendingorder" element={<PendingData />} />
+              <Route path="completeorder" element={<CompleteData />} />
+              <Route path="manage-adons" element={<AddcategoryData />} />
+              <Route path="manage-category" element={<CategoryListData />} />
+              <Route path="add-food" element={<AddFoodData />} />
+              <Route path="food-list" element={<FoodlistData />} />
+              <Route path="add-group-item" element={<AddGroupData />} />
+              <Route path="food-varient" element={<VarientData />} />
+              <Route path="food-availablity" element={<FoodAvailbityData />} />
+              <Route path="menu-type" element={<MenuTypeData />} />
+              <Route path="add-adons" element={<AddonsData />} />
+              <Route path="addons-list" element={<AddonListData />} />
+              <Route path="add-ons-assign-list" element={<AddonAssignData />} />
+              <Route path="pos-invoice" element={<PosInvoiceData />} />
+              <Route path="cancel-order" element={<CancelData />} />
+              <Route path="counter-list" element={<CounterData />} />
+              <Route path="pos-setting" element={<PosData />} />
+              <Route path="sound-setting" element={<Soundset />} />
+              <Route path="counter-dashboard" element={<CounterDashboardData />} />
+              <Route path="kitchen-dashboard" element={<KitchenDashboardData />} />
+              {/* sima */}
+
+
+
+              {/* meraj */}
+              <Route path="truck-master" element={<TruckMaster />} />
+              <Route path="truck-driver" element={<TruckDriver />} />
+              <Route path="truck-owner" element={<TruckOwner />} />
+              <Route path="train-master" element={<TrainMaster />} />
+              <Route path="container" element={<Container />} />
+              <Route path="flight" element={<Flight />} />
+              {/* Web Setting  */}
+              <Route path="common-setting" element={<CommonSetting />} />
+              <Route path="manage-store" element={<ManageStoreTime />} />
+              <Route path="banner-setting" element={<BannerSetting />} />
+              <Route path="menu-setting" element={<MenuSetting />} />
+              <Route path="seo-setting" element={<SeoSetting />} />
+              <Route path="social-setting" element={<SocialSetting />} />
+              <Route path="widget-setting" element={<WidgetSetting />} />
+              <Route path="email-setting-web" element={<EmailSettingWeb />} />
+              <Route path="customer-web" element={<CustomerWeb />} />
+              <Route path="coupon-list" element={<Coupon />} />
+              <Route path="subscribe-web" element={<SubscribeWeb />} />
+              {/* meraj */}
+
+              {/* Moin */}
+              <Route path="etg-dashboard" element={<EtgDashboardPage />} />
+              <Route path="etg-sales-dashboard" element={<SalesDashPage />} />
+              <Route path="etg-sales-product-dashboard" element={<EtgProductsDashPage />} />
+              <Route path="etg-pointOfSale-dashboard" element={<EtgPointOfSalePage />} />
+              <Route path="etg-rental-dashboard" element={<EtgRentalDashPage />} />
+              <Route path="etg-subscription-dashboard" element={<EtgSubscriptionDashPage />} />
+              <Route path="etg-salesPerson-dashboard" element={<SalesPersonDashPage />} />
+              <Route path="etg-new-dashboard" element={<EtgNewDashboardPage />} />
+              <Route path="etg-accounting-dashboard" element={<AccountingDashPage />} />
+              <Route path="etg-invoicing-dashboard" element={<EtgInvoicingDashPage />} />
+              <Route path="etg-expenses-dashboard" element={<EtgExpensesDashPage />} />
+              <Route path="etg-benchMark-dashboard" element={<EtgBenchmarkDashPage />} />
+              <Route path="etg-purchase-dashboard" element={<EtgPurchaseDashPage />} />
+              <Route path="etg-vendor-dashboard" element={<EtgVendorDashPage />} />
+              <Route path="etg-inventoryFlow-dashboard" element={<EtgInventoryFlowDashPage />} />
+              <Route path="etg-eventMarketing-dashboard" element={<EtgEventMarketingDashPage />} />
+              <Route path="etg-inventryOnHand-dashboard" element={<EtgInventoryOnHandDashPage />} />
+              <Route path="etg-website-dashboard" element={<EtgWebsiteDashboardPage />} />
+              <Route path="etg-tasks-dashboard" element={<EtgTasksDashPage />} />
+              <Route path="etg-timeSheet-dashboard" element={<EtgTimeSheetDashBoardPage />} />
+              <Route path="etg-helpdesk-dashboard" element={<EtgHelpDeskDashPage />} />
+              <Route path="etg-employee-HR-dashboard" element={<EtgEmployeeHumanResourcePage />} />
+
+              {/* Moin */}
 
             </Route>
           </>

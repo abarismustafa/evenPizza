@@ -1,5 +1,5 @@
 import React from 'react'
-import PurchaseInvoiceListComp from '../../components/purchaseInvoiceListComp/PurchaseInvoiceListComp'
+// import PurchaseInvoiceListComp from '../../components/purchaseInvoiceListComp/PurchaseInvoiceListComp'
 import Breadcrumbs from '../../common/breadcrumb/Breadcrumbs'
 
 function PurchaseInvoiceListPage() {
@@ -11,7 +11,7 @@ function PurchaseInvoiceListPage() {
     return (
         <>
             <Breadcrumbs breadCrumbsTitle={breadCrumbsTitle} />
-            <PurchaseInvoiceListComp />
+            {/* <PurchaseInvoiceListComp /> */}
         </>
     )
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import Breadcrumbs from '../../common/breadcrumb/Breadcrumbs'
-import SocailMediaLikeRewardPointComp from '../../components/socailMediaLikeRewardPointComp/SocailMediaLikeRewardPointComp'
+// import SocailMediaLikeRewardPointComp from '../../components/socailMediaLikeRewardPointComp/SocailMediaLikeRewardPointComp'
 
 function SocailMediaLikeRewardPointPage() {
     const breadCrumbsTitle = {
@@ -11,7 +11,7 @@ function SocailMediaLikeRewardPointPage() {
     return (
         <>
             <Breadcrumbs breadCrumbsTitle={breadCrumbsTitle} />
-            <SocailMediaLikeRewardPointComp />
+            {/* <SocailMediaLikeRewardPointComp /> */}
         </>
     )
 }
