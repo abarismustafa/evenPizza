@@ -1,6 +1,6 @@
 import React from 'react'
 import Breadcrumbs from '../../common/breadcrumb/Breadcrumbs'
-import SocialRewardSharePointComp from '../../components/socialRewardSharePointComp/SocialRewardSharePointComp'
+// import SocialRewardSharePointComp from '../../components/socialRewardSharePointComp/SocialRewardSharePointComp'
 
 function SocialRewardSharePointPage() {
     const breadCrumbsTitle = {
@@ -11,7 +11,7 @@ function SocialRewardSharePointPage() {
     return (
         <>
             <Breadcrumbs breadCrumbsTitle={breadCrumbsTitle} />
-            <SocialRewardSharePointComp />
+            {/* <SocialRewardSharePointComp /> */}
         </>
     )
 }

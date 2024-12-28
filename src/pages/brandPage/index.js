@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Breadcrumbs from '../../common/breadcrumb/Breadcrumbs'
-import AddBrand from '../../components/brandComp/AddBrand'
-import ListBrand from '../../components/brandComp/ListBrand'
+// import AddBrand from '../../components/brandComp/AddBrand'
+// import ListBrand from '../../components/brandComp/ListBrand'
 import { message } from 'antd'
 import { deleteBrandById, getBrandByPage } from '../../api/login/Login'
 import Loadar from '../../common/loader/Loader'
@@ -52,8 +52,8 @@ function BrandPage() {
         <>
             {loading && <Loadar />}
             <Breadcrumbs breadCrumbsTitle={breadCrumbsTitle} />
-            <AddBrand getData={getData}/>
-            <ListBrand data={data} confirm={confirm} cancel={cancel} />
+            {/* <AddBrand getData={getData} /> */}
+            {/* <ListBrand data={data} confirm={confirm} cancel={cancel} /> */}
         </>
     )
 }

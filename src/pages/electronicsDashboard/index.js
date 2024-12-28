@@ -1,4 +1,4 @@
-import ElectronicsDashboard from "../../components/electronicsDashboard/ElectronicsDashboard"
+// import ElectronicsDashboard from "../../components/electronicsDashboard/ElectronicsDashboard"
 
 
 
@@ -6,7 +6,7 @@ import ElectronicsDashboard from "../../components/electronicsDashboard/Electron
 const ElectronicsDashboardPage = () => {
     return (
         <>
-            <ElectronicsDashboard />
+            {/* <ElectronicsDashboard /> */}
         </>
     )
 }
